@@ -35,7 +35,7 @@ class User(UserMixin, db.Model):
     followers: so.WriteOnlyMapped['User'] = so.relationship(
         secondary=followers,
         primaryjoin=(followers.c.followed_id == id),
-        secondaryjoin=(followers.c.followed_id == id),
+        secondaryjoin=(followers.c.follower_id == id),
         back_populates='following'
     )
     
@@ -65,11 +65,11 @@ class User(UserMixin, db.Model):
         return db.session.scalar(query) is not None
 
     def followers_count(self):
-        query = self.select(sa.func.count()).select_from(self.followers.select().subquery())
+        query = sa.select(sa.func.count()).select_from(self.followers.select().subquery())
         return db.session.scalar(query)
     
     def following_count(self):
-        query = self.selecct(sa.func.count()).select_fro,(self.following.select().subquery())
+        query = sa.select(sa.func.count()).select_from(self.following.select().subquery())
         return db.session.scalar(query)
             
     def following_posts(self):
