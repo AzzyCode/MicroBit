@@ -1,0 +1,229 @@
+# Spanish translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-07-23 00:06+0200\n"
+"PO-Revision-Date: 2024-07-21 00:05+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: app/forms.py:11 app/forms.py:18 app/forms.py:48
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: app/forms.py:12 app/forms.py:26 app/forms.py:80
+msgid "Password"
+msgstr "Contraseña"
+
+#: app/forms.py:13
+msgid "Remember Me"
+msgstr "Recuérdame"
+
+#: app/forms.py:14 app/templates/login.html:8 app/templates/register.html:8
+msgid "Sign In"
+msgstr "Iniciar sesión"
+
+#: app/forms.py:20
+msgid "Email Address"
+msgstr "Dirección de correo electrónico"
+
+#: app/forms.py:28
+msgid "Confirm Password"
+msgstr "Confirmar contraseña"
+
+#: app/forms.py:31
+msgid "Password must match."
+msgstr "Las contraseñas deben coincidir."
+
+#: app/forms.py:34 app/templates/base.html:66
+msgid "Register"
+msgstr "Registrar"
+
+#: app/forms.py:39 app/forms.py:62
+msgid "Please use a different username."
+msgstr "Por favor, use un nombre de usuario diferente."
+
+#: app/forms.py:44
+msgid "Please use a different email address."
+msgstr "Por favor, use una dirección de correo electrónico diferente."
+
+#: app/forms.py:49
+msgid "About me"
+msgstr "Sobre mí"
+
+#: app/forms.py:50 app/forms.py:66
+msgid "Submit"
+msgstr "Enviar"
+
+#: app/forms.py:71
+msgid "Send"
+msgstr "Enviar"
+
+#: app/forms.py:75
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: app/forms.py:76
+msgid "Request Password Reset"
+msgstr "Solicitar restablecimiento de contraseña"
+
+#: app/forms.py:81
+msgid "Repeat Password"
+msgstr "Repetir contraseña"
+
+#: app/routes.py:31
+msgid "Your post is live!"
+msgstr "¡Tu publicación está en vivo!"
+
+#: app/routes.py:64
+msgid "Invalid username or password"
+msgstr "Nombre de usuario o contraseña inválidos"
+
+#: app/routes.py:93
+msgid "Thanks for registering."
+msgstr "Gracias por registrarte."
+
+#: app/routes.py:136
+msgid "Your changes have been saved"
+msgstr "Tus cambios han sido guardados"
+
+#: app/routes.py:152
+#, python-format
+msgid "User %(username)s not found."
+msgstr "Usuario %(username)s no encontrado."
+
+#: app/routes.py:155
+msgid "You cannot follow yourself!"
+msgstr "¡No puedes seguirte a ti mismo!"
+
+#: app/routes.py:159
+#, python-format
+msgid "You are following %(username)s!"
+msgstr "¡Estás siguiendo a %(username)s!"
+
+#: app/routes.py:175
+msgid "You cannot unfollow yourself!"
+msgstr "¡No puedes dejar de seguirte a ti mismo!"
+
+#: app/routes.py:179
+#, python-format
+msgid "You are not following %(username)s."
+msgstr "No estás siguiendo a %(username)s."
+
+#: app/routes.py:213
+msgid "Check your email for the instructions to reset your password"
+msgstr ""
+"evisa tu correo electrónico para las instrucciones de restablecimiento de"
+" contraseña"
+
+#: app/templates/404.html:4
+msgid "File Not Found"
+msgstr "Archivo no encontrado"
+
+#: app/templates/404.html:5
+msgid "Back"
+msgstr "Atrás"
+
+#: app/templates/_post.html:14
+#, python-format
+msgid "%(username)s said %(when)s"
+msgstr "%(username)s dijo %(when)s"
+
+#: app/templates/base.html:10
+msgid "Welcome to MicroBit"
+msgstr "Bienvenido a MicroBit"
+
+#: app/templates/base.html:32
+msgid "Home"
+msgstr "Inicio"
+
+#: app/templates/base.html:35
+msgid "Explore"
+msgstr "Explorar"
+
+#: app/templates/base.html:40
+msgid "Profile"
+msgstr "Perfil"
+
+#: app/templates/base.html:44
+msgid "View Profile"
+msgstr "Ver perfil"
+
+#: app/templates/base.html:45 app/templates/edit_profile.html:8
+msgid "Edit Profile"
+msgstr "Editar perfil"
+
+#: app/templates/base.html:50
+msgid "Logout"
+msgstr "Cerrar sesión"
+
+#: app/templates/base.html:58
+msgid "Search"
+msgstr "Buscar"
+
+#: app/templates/base.html:63
+msgid "Login"
+msgstr "Iniciar sesión"
+
+#: app/templates/index.html:9
+#, python-format
+msgid "Hi %(username)s, Write Your Post"
+msgstr "Hola %(username)s, Escribe tu publicación"
+
+#: app/templates/index.html:22 app/templates/user.html:45
+msgid "Previous"
+msgstr "Anterior"
+
+#: app/templates/index.html:27 app/templates/user.html:50
+msgid "Next"
+msgstr "Siguiente"
+
+#: app/templates/login.html:11
+msgid "New User?"
+msgstr "¿Usuario nuevo?"
+
+#: app/templates/login.html:12
+msgid "Click to Register!"
+msgstr "¡Haz clic para registrarte!"
+
+#: app/templates/login.html:15
+msgid "Forgot Your Password?"
+msgstr "¿Olvidaste tu contraseña?"
+
+#: app/templates/login.html:16
+msgid "Click to Reset It"
+msgstr "Haz clic para restablecerla"
+
+#: app/templates/user.html:8
+msgid "User"
+msgstr "Usuario"
+
+#: app/templates/user.html:13
+msgid "Last seen on:"
+msgstr "Última vez visto en:"
+
+#: app/templates/user.html:15
+#, python-format
+msgid "%(count)d followers"
+msgstr "%(count)d seguidores"
+
+#: app/templates/user.html:15
+#, python-format
+msgid "%(count)d following"
+msgstr "%(count)d seguidos"
+
+#: app/templates/user.html:18
+msgid "Edit your profile"
+msgstr "Edita tu perfil"
+
