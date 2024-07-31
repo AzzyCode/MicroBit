@@ -40,6 +40,14 @@
     ```bash
     flask run
 
+
+### Screenshots
+
+![Home Page](https://github.com/user-attachments/assets/c7fbacb7-ef53-4d5c-b9b4-67d6385f0b84)
+
+![Explore Page](https://github.com/user-attachments/assets/09cf2edc-8c3d-4438-96b8-b8bd10d8f5af)
+
+
 ### Development
 
 To start development, ensure your environment is set up with the necessary dependencies and the database is initialized. Use a tool like flask shell for interactive work and pytest for testing.
