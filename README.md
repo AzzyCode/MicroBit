@@ -46,7 +46,7 @@
 ### Home Page
 ![Home Page](https://github.com/user-attachments/assets/c7fbacb7-ef53-4d5c-b9b4-67d6385f0b84)
 
-## Explory Page
+### Explore Page
 ![Explore Page](https://github.com/user-attachments/assets/09cf2edc-8c3d-4438-96b8-b8bd10d8f5af)
 
 
