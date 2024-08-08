@@ -9,6 +9,7 @@ import os
 from config import Config
 import logging
 from logging.handlers import SMTPHandler, RotatingFileHandler
+from elasticsearch import Elasticsearch
 
 
 def get_locale():
@@ -36,6 +37,9 @@ def create_app(config_class=Config):
     moment.init_app(app)
     babel.init_app(app, locale_selector=get_locale)
     
+    # Add new attribute to the app instance
+    app.elasticsearch = Elasticsearch([app.config["ELASTICSEARCH_URL"]]) \
+        if app.config["ELASTICSEARCH_URL"] else None
     
     from app.errors import bp as errors_bp
     app.register_blueprint(errors_bp)
